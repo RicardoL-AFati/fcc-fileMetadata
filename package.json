@@ -4,8 +4,27 @@
   "description": "An FCC Backend Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "8.11.1",
+    "npm": "6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoL-AFati/fcc-fileMetadata.git"
   },
   "author": "Ricardo Ledesma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "multer": "^1.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
 }

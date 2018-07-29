@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>File Metadata | Ricardo Ledesma</title>
 </head>
 
@@ -20,12 +21,20 @@
             </ol>
 
             <p>Upload a file</p>
-            <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
-                <input id="inputField" type="file" name="upfile">
-                <input id="submit" type="submit" value="Upload">
-            </form>
+            <fieldset>
+                <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+                    <input id="inputField" type="file" name="upfile">
+                    <br>
+                    <input id="submit" type="submit" value="Upload">
+                </form>
+            </fieldset>
         </div>
     </main>
+    <footer>
+        <p> Coded By
+            <a href="https://github.com/RicardoL-AFati/fcc-fileMetadata">Ricardo Ledesma</a>
+        </p>
+    </footer>
 </body>
 
 </html>
