@@ -1,7 +1,5 @@
 # FCC API Projects: File Metadata Microservice
 
-======
-
 ## User Stories:
 
 1.  I can submit a form that includes a file upload.
